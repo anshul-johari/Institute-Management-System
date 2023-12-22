@@ -1,0 +1,3 @@
+create table students(admno int primary key,sname varchar(30) not null,class int not null,fn varchar(50),mn varchar(50),pno varchar(15),dob varchar(15),course varchar(15) not null);
+create table faculties(fid int primary key,fname varchar(30) not null,exp varchar(20),qualifications varchar(30) not null,courses varchar(30) not null,salary float not null,pno varchar(10) not null);
+create table fees(admno int primary key,feepaid int not null,dateoffee varchar(15) not null,remainingfee int,course varchar(30));
